@@ -969,7 +969,7 @@
 		8E9C3CE117DE9DE000427E62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Parse Inc.";
 				TargetAttributes = {
 					8E8C8F1817F241DA00E3F1C7 = {
@@ -1402,6 +1402,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D646FA1D2CA0E000690609 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 			};
 			name = Debug;
 		};
@@ -1409,6 +1410,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D646FB1D2CA0E000690609 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 			};
 			name = Release;
 		};
