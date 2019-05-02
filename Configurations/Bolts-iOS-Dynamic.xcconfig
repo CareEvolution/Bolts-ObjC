@@ -24,3 +24,4 @@ OTHER_LDFLAGS = $(inherited) -framework CoreGraphics -framework UIKit
 
 // Use the 1.0.0 to avoid breaking changes with older version of Bolts.
 DYLIB_COMPATIBILITY_VERSION = 1
+    
